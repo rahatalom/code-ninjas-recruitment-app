@@ -1,9 +1,26 @@
-import { SIGN_UP, FETCH_DATA } from "./types";
+import {SIGN_UP, FETCH_DATA, SIGN_IN, APPLY_ADJUSTMENTS} from "./types";
 
 export const signUp = (email) => ({
   type: SIGN_UP,
   payload: {
     email: email,
+  },
+});
+
+export const signIn = (username, password) => ({
+  type: SIGN_IN,
+  payload: {
+    username: username,
+    password: password,
+  },
+});
+
+export const applyAdjustments = (colourToggle, dyslexiaToggle, fontToggle) => ({
+  type: APPLY_ADJUSTMENTS,
+  payload: {
+    colourToggle : colourToggle,
+    dyslexiaToggle : dyslexiaToggle,
+    fontToggle : fontToggle,
   },
 });
 

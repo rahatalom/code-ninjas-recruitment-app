@@ -1,0 +1,10 @@
+{
+  "devToolsPort": 19002,
+  "expoServerPort": 19000,
+  "packagerPort": 19000,
+  "expoServerNgrokUrl": "https://nd-3rs.anonymous.bassara.exp.direct",
+  "packagerNgrokUrl": "https://packager.nd-3rs.anonymous.bassara.exp.direct",
+  "ngrokPid": 5998,
+  "packagerPid": null,
+  "webpackServerPort": 19006
+}
