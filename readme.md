@@ -1,3 +1,9 @@
+**Install node modules: npm install**
+
+**Start app: npm start**
+
+**Requires expo go app in order to run on phone**
+
 Screenshots:
 
 ![image](https://user-images.githubusercontent.com/68152354/113427076-572b5080-93cc-11eb-84c1-32bb927cd8e6.png)
